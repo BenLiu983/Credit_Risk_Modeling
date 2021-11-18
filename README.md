@@ -70,7 +70,7 @@ EL = PD * LGD * EAD
 
 ![image](https://user-images.githubusercontent.com/64850893/142502352-82e04222-f890-408e-8980-3941b85e2833.png)
 
-## 5.4 Transfer to probability and set the cut-off
+## 5.4 Transfer the scorecard to probability and set the cut-off
 
 ![image](https://user-images.githubusercontent.com/64850893/142502545-caf155ac-7d19-4cd6-8ce5-c2fe84990f15.png)
 
@@ -112,9 +112,9 @@ EL = PD * LGD * EAD
 
 ## 7.2 Dependent Varables
 
-* We use the 'CCF' column in the loan_data_defaults data set
+* We use the 'CCF' column in the loan_data_defaults data set.
 
-## 7.3 Summary table:
+## 7.3 Summary table
 
 ![image](https://user-images.githubusercontent.com/64850893/142504336-7f967c73-173f-445e-84fd-b0219cd96a6f.png)
 
@@ -132,5 +132,4 @@ EL = PD * LGD * EAD
 
 # 9. Conclusion
 
-Given that the ratio of total expected loss and total funded loan is about 7.5%, and  
-usually a bank holds 10% of its assets as capital, we can conclude that the level of risk for this bank is relevantly safe.
+* Given that the ratio of total expected loss and total funded loan is about 7.5%, and usually a bank holds 10% of its assets as capital, we can conclude that the level of risk for this bank is relevantly safe.
