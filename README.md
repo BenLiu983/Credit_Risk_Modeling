@@ -33,10 +33,17 @@ EL = PD * LGD * EAD
 
 * Dependent Variable: Good/ Bad (Default) Definition. Default and Non-default Accounts.
 
-* Preprocessing Discrete Variables: Visualizing Results, creating Dummy Variables.
+* Preprocessing Discrete Variables: calculate WOE (Weight of Evidence) and IV (information value), visualizing Results, creating Dummy Variables.
 
-* Preprocessing Continuous Variables: Visualizing Results, creating Dummy Variables.
+![image](https://user-images.githubusercontent.com/64850893/142495873-5ab7915a-eb40-4847-9e40-4ba62b0df061.png)
 
+![image](https://user-images.githubusercontent.com/64850893/142496153-e5d450a2-08b8-4fb6-bccd-212e6ff535cf.png)
+
+* Preprocessing Continuous Variables: calculate WOE (Weight of Evidence) and IV (information value), visualizing Results, creating Dummy Variables.
+
+![image](https://user-images.githubusercontent.com/64850893/142496280-b095c837-5ea2-49db-80fe-03194ea152b2.png)
+
+![image](https://user-images.githubusercontent.com/64850893/142496396-1621fbd9-054b-4e02-8766-72a623f00517.png)
 
 
 ### 5.2 Modeling (p value)
