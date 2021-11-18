@@ -1,4 +1,4 @@
-# Credit_Risk_Modeling
+# Credit Risk Modeling
 
 Calculate the amount a specific bank would lose by lending to borrowers using Machine Learning algorithms.
 
@@ -125,7 +125,16 @@ EL = PD * LGD * EAD
 
 ## 8. EL:
 
+* Total Expected Loss:
+
+![image](https://user-images.githubusercontent.com/64850893/142507662-ae2289dd-2ea3-4884-945a-b9acb1c59360.png)
+
+* Total Expected Loss as a proportion of total funded amount for all loans:
+
+![image](https://user-images.githubusercontent.com/64850893/142507782-c918d3e9-dcad-4b1f-803b-a5bb42b148e9.png)
+
 
 ## 9. Conclusion
 
-
+Given that the ratio of total expected loss and total funded loan is about 7.5%, and  
+usually a bank holds 10% of its assets as capital, we can conclude that the level of risk for this bank is relevantly safe.
