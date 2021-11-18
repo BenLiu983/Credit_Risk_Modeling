@@ -29,7 +29,17 @@ EL = PD * LGD * EAD
 
 ## 5. PD Model:
 
-### 5.1 
+### 5.1 Data Prep
+
+* Dependent Variable: Good/ Bad (Default) Definition. Default and Non-default Accounts.
+
+* Preprocessing Discrete Variables: Visualizing Results, creating Dummy Variables.
+
+* Preprocessing Continuous Variables: Visualizing Results, creating Dummy Variables.
+
+
+
+### 5.2 Modeling (p value)
 
 
 
