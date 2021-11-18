@@ -4,43 +4,35 @@ Calculate the amount a specific bank would lose by lending to borrowers using Ma
 
 # 1. Objectives
 
-* Investigate the expected credit risk a bank is facing.
+Investigate the expected credit risk a bank is facing.
 
 # 2. Data
 
-This project is based on a dataset from lending club, consisting loan information from 2007 to 2014 (466k customers * 74 features).
+This project is based on a dataset from lending club, consisting loan information from 2007 to 2014 (466k customers * 75 features).
 
 # 3. Methodology
 
 EL = PD * LGD * EAD
 
-* EL: Expected Loss
-* PD: Probability of Default (Logistic Regression)
-* LGD: Loss Given Default (Linear Regression)
-* EAD：Exposure at Default (Linear Regression)
-
+* EL (Expected Loss): The amount a lender might lose by lending to a borrower.
+* PD (Probability of Default): The borrowers inability to repay their debt in full or on time (Logistic Regression).
+* LGD (Loss Given Default): The proportion of the total exposure that cannot be recovered by the lender once a default has occurred (Linear Regression).
+* EAD (Exposure at Default): The total value that a lender is exposed to when a borrower defaults (Linear Regression).
 
 ## 4. Variable intepretation:
 
+![image](https://user-images.githubusercontent.com/64850893/142494442-c3d93b5a-90d6-4a7b-a187-aaac1975296d.png)
 
-* Independent variables: first purchase brand, email OR, CTR, coupon redemption rate, enrollment type, enrollment age, baby age, breastfeed type, hospital zone.​
-
-* Machine Learning Models: Logistic regression, decision tree, Artificial Neural Network.​
-* 
-* Current brand: "1" represents our brand, and other values represent other brands.
-* First purchase brand: "1" represents our brand, and other values represent other brands.
-* Email OR (open rate): the nubmer of emails opened/the number of emails have been sent to a person
-* Email CTR (open rate): the nubmer of emails clicked/the number of emails have been sent to a person
-* Coupon redemption rate: the nubmer of coupon redeemed/the number of emails have been sent to a person
-* Enrollment type: the source from which a person enroll to our program (Digital Self Enrollment, Co-registered)
-* Enrollment age: the age of the baby when the parent enrolled in our program
-* Baby age: the age of the babay when the parent took the survey 
-* Breastfeed type: "1" represents breastfed only, "2" represents both breastfed and formula feed, "3" represents formula feed only, "4" represents neither.
-* Hospital zone: "1" represents our hospital zone, and other values represent other brands.
+![image](https://user-images.githubusercontent.com/64850893/142494551-9060105e-60a6-46bc-84ab-1ac4f3b8ebcc.png)
 
 
 
 ## 5. PD Model:
+
+### 5.1 
+
+
+
 
 ## 6. LGD Model:
 
