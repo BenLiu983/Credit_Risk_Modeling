@@ -1,8 +1,7 @@
 # Credit Risk Modeling
 
 # 1. Objective
-
-Calculate the amount a specific bank would lose by lending to borrowers, as well as the ratio of total funded loans.
+Estimate the amount a specific bank would lose by lending to borrowers, as well as the ratio of total funded loans, to assess the credit risk level.
 
 # 2. Data
 
