@@ -29,7 +29,7 @@ EL = PD * LGD * EAD
 
 ## 5. PD Model:
 
-### 5.1 Data Prep
+### 5.1 Data Prep and EDA
 
 * Dependent Variable: Good/ Bad (Default) Definition. Default and Non-default Accounts.
 
@@ -80,9 +80,51 @@ EL = PD * LGD * EAD
 
 ## 6. LGD Model:
 
+### 6.1 Data Prep and EDA
+
+* Similar to the methods in 5.1.
+
+### 6.2 Dependent Varables
+
+* We calculate the dependent variable for the LGD model: recovery rate, which is the ratio of recoveries and funded amount.
+
+### 6.3 Stage 1 - Logistic Regression 
+
+* Summary table：
+
+![image](https://user-images.githubusercontent.com/64850893/142503184-f62bc3b7-e970-490a-9325-6485c1bc2a85.png)
+
+* Confusion Matrix:
+
+![image](https://user-images.githubusercontent.com/64850893/142503593-2bd6013e-f662-41c5-9147-e3c52efa7785.png)
+
+* ROC:
+
+![image](https://user-images.githubusercontent.com/64850893/142503766-64f7b814-8f25-449f-9b86-47802119509f.png)
+
+### 6.4 Stage 2 - Linear Regression
+
+* Summary table:
+
+![image](https://user-images.githubusercontent.com/64850893/142503924-f90d371b-e143-4e00-9d7c-bb73868ba18e.png)
+
 ## 7. EAD Model:
 
+### 7.1 Data Prep and EDA
+
+* Similar to the methods in 5.1.
+
+### 7.2 Dependent Varables
+
+* We use the 'CCF' column in the loan_data_defaults data set
+
+### 7.3 Summary table:
+
+![image](https://user-images.githubusercontent.com/64850893/142504336-7f967c73-173f-445e-84fd-b0219cd96a6f.png)
+
+
 ## 8. EL:
+
 
 ## 9. Conclusion
 
