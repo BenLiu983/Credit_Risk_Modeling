@@ -48,13 +48,42 @@ EL = PD * LGD * EAD
 
 ### 5.2 Modeling (p value)
 
+* Summary table
 
+![image](https://user-images.githubusercontent.com/64850893/142500952-42411970-f46c-4abf-a2ec-b522983962a3.png)
 
+* Confusion Matrix
+
+![image](https://user-images.githubusercontent.com/64850893/142500841-4f10af6b-6b01-4842-a7c2-0e60fc7e4f86.png)
+
+* ROC
+
+![image](https://user-images.githubusercontent.com/64850893/142500749-8210811d-43b0-44c6-8023-4948185b04d6.png)
+
+* Gini
+
+![image](https://user-images.githubusercontent.com/64850893/142501294-c0cf9d73-03af-40f0-a730-5a4b3441ace0.png)
+
+* Kolmogorov-Smirnov
+
+![image](https://user-images.githubusercontent.com/64850893/142501341-7d7e1e88-4f52-4474-8dc0-7eeb243878c0.png)
+
+### 5.3 Create a Scorecard
+
+![image](https://user-images.githubusercontent.com/64850893/142501818-37edb173-841f-42b5-bd8d-ff2af5cb093a.png)
+
+![image](https://user-images.githubusercontent.com/64850893/142502352-82e04222-f890-408e-8980-3941b85e2833.png)
+
+### 5.4 Transfer to probability and set the cut-off
+
+![image](https://user-images.githubusercontent.com/64850893/142502545-caf155ac-7d19-4cd6-8ce5-c2fe84990f15.png)
 
 ## 6. LGD Model:
 
 ## 7. EAD Model:
 
 ## 8. EL:
+
+## 9. Conclusion
 
 
